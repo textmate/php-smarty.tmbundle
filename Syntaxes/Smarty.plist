@@ -3,11 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>fileTypes</key>
-	<array/>
+	<array>
+		<string>tpl</string>
+	</array>
 	<key>foldingStartMarker</key>
 	<string>(&lt;(?i:(head|table|tr|div|style|script|ul|ol|form|dl))\b.*?&gt;|\{\{?(if|foreach|capture|literal|foreach|php|section|strip)|\{\s*$)</string>
 	<key>foldingStopMarker</key>
 	<string>(&lt;/(?i:(head|table|tr|div|style|script|ul|ol|form|dl))&gt;|\{\{?/(if|foreach|capture|literal|foreach|php|section|strip)|(^|\s)\})</string>
+	<key>keyEquivalent</key>
+	<string>^~S</string>
 	<key>name</key>
 	<string>Smarty</string>
 	<key>patterns</key>
