@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>Literal</string>
 	<key>scope</key>
-	<string>source.smarty</string>
+	<string>text.html.smarty</string>
 	<key>tabTrigger</key>
 	<string>{lit</string>
 	<key>uuid</key>

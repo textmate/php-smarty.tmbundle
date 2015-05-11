@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>Fetch</string>
 	<key>scope</key>
-	<string>source.smarty</string>
+	<string>text.html.smarty</string>
 	<key>tabTrigger</key>
 	<string>{fetch</string>
 	<key>uuid</key>

@@ -9,7 +9,7 @@
 	<key>name</key>
 	<string>Strip</string>
 	<key>scope</key>
-	<string>source.smarty</string>
+	<string>text.html.smarty</string>
 	<key>tabTrigger</key>
 	<string>{strip</string>
 	<key>uuid</key>

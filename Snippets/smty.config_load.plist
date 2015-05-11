@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>Config Load</string>
 	<key>scope</key>
-	<string>source.smarty</string>
+	<string>text.html.smarty</string>
 	<key>tabTrigger</key>
 	<string>{config_load</string>
 	<key>uuid</key>

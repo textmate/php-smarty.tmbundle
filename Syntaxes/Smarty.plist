@@ -53,7 +53,7 @@
 						</dict>
 					</dict>
 					<key>name</key>
-					<string>source.smarty</string>
+					<string>text.html.smarty</string>
 					<key>patterns</key>
 					<array>
 						<dict>
@@ -307,7 +307,7 @@
 		</dict>
 	</dict>
 	<key>scopeName</key>
-	<string>source.smarty</string>
+	<string>text.html.smarty</string>
 	<key>uuid</key>
 	<string>4D6BBA54-E3FC-4296-9CA1-662B2AD537C6</string>
 </dict>
