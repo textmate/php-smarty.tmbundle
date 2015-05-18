@@ -6,20 +6,29 @@
 	<array>
 		<string>tpl</string>
 	</array>
+	<key>injections</key>
+	<dict>
+		<key>text.html.smarty - (meta.embedded | meta.tag), L:text.html.smarty meta.tag</key>
+		<dict>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>#comments</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#blocks</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
 	<key>keyEquivalent</key>
 	<string>^~S</string>
 	<key>name</key>
 	<string>Smarty</string>
 	<key>patterns</key>
 	<array>
-		<dict>
-			<key>include</key>
-			<string>#comments</string>
-		</dict>
-		<dict>
-			<key>include</key>
-			<string>#blocks</string>
-		</dict>
 		<dict>
 			<key>include</key>
 			<string>text.html.basic</string>
