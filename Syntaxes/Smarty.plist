@@ -8,7 +8,7 @@
 	</array>
 	<key>injections</key>
 	<dict>
-		<key>text.html.smarty - (meta.embedded | meta.tag), L:text.html.smarty meta.tag</key>
+		<key>text.html.smarty - (meta.embedded | meta.tag | comment.block), L:text.html.smarty meta.tag</key>
 		<dict>
 			<key>patterns</key>
 			<array>
