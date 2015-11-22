@@ -9,9 +9,9 @@
 	<key>settings</key>
 	<dict>
 		<key>foldingStartMarker</key>
-		<string>\{%?</string>
+		<string>\{%?(\*|((if|section|foreach|block|switch|case|capture).*)|(literal|strip)%?\})\s*$</string>
 		<key>foldingStopMarker</key>
-		<string>%?\}</string>
+		<string>(^(\s*?)\*|(\{%?\/(if|section|literal|foreach|block|switch|case|capture|strip))%?\})</string>
 	</dict>
 	<key>uuid</key>
 	<string>5D1338FA-DE7B-4200-A3BC-C148344A5BED</string>
