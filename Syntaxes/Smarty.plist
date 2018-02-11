@@ -8,7 +8,7 @@
 	</array>
 	<key>injections</key>
 	<dict>
-		<key>text.html.smarty - (meta.embedded | meta.tag | comment.block), L:text.html.smarty meta.tag</key>
+		<key>text.html.smarty - (meta.embedded | meta.tag | comment.block | meta.block.literal), L:text.html.smarty meta.tag</key>
 		<dict>
 			<key>patterns</key>
 			<array>
@@ -40,6 +40,44 @@
 		<dict>
 			<key>patterns</key>
 			<array>
+				<dict>
+					<key>begin</key>
+					<string>(\{)(literal)(\})</string>
+					<key>captures</key>
+					<dict>
+						<key>0</key>
+						<dict>
+							<key>name</key>
+							<string>meta.embedded.line.tag.literal.smarty</string>
+						</dict>
+						<key>1</key>
+						<dict>
+							<key>name</key>
+							<string>punctuation.definition.tag.begin.smarty</string>
+						</dict>
+						<key>2</key>
+						<dict>
+							<key>name</key>
+							<string>support.function.built-in.smarty</string>
+						</dict>
+						<key>3</key>
+						<dict>
+							<key>name</key>
+							<string>punctuation.definition.tag.end.smarty</string>
+						</dict>
+					</dict>
+					<key>end</key>
+					<string>(\{/)(literal)(\})</string>
+					<key>name</key>
+					<string>meta.block.literal.smarty</string>
+					<key>patterns</key>
+					<array>
+						<dict>
+							<key>include</key>
+							<string>text.html.basic</string>
+						</dict>
+					</array>
+				</dict>
 				<dict>
 					<key>begin</key>
 					<string>(\{%?)</string>
